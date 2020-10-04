@@ -8,4 +8,4 @@ Vue.js + Spring Boot + MySQL+JPA 게시판 만들기(2) - 백엔드 프로젝트
 
 Vue.js + Spring Boot + MySQL+JPA 게시판 만들기(3) - 프론트 생성 - https://codinghack.tistory.com/53
 
- 
+Vue.js + Spring Boot + MySQL+JPA 게시판 만들기(4) - Intelij 설정 - https://codinghack.tistory.com/54
