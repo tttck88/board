@@ -8,3 +8,11 @@ spring:
   thymeleaf:
     prefix: classpath:/static/
     suffix: .html
+
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    open-in-view: false
+    show-sql: true
+    hibernate:
+      format_sql: true
+      ddl-auto: update
