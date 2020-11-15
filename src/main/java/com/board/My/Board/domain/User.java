@@ -1,5 +1,6 @@
 package com.board.My.Board.domain;
 
+import com.board.My.Board.dto.UserForm;
 import lombok.Getter;
 import javax.persistence.*;
 
@@ -21,4 +22,15 @@ public class User {
     @Column( length = 50, nullable = false)
     private String password;
 
+    public User(){}
+
+    public User(UserForm userForm) {
+        this.email = userForm.getEmail();
+        this.userName = userForm.getUserName();
+        this.password = userForm.getPassword();
+    }
+
+    public static User createUser(UserForm userForm){
+        return new User(userForm);
+    }
 }
