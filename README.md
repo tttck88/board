@@ -21,5 +21,4 @@ Vue.js + Spring Boot + MySQL+JPA 게시판 만들기(6) - 백엔드API Domain �
 Vue.js + Spring Boot + MySQL+JPA 게시판 만들기(7) - 회원가입 API 생성 - https://codinghack.tistory.com/59
 
 Vue.js + Spring Boot + MySQL+JPA 게시판 만들기(8) - 에러처리 구현 - https://codinghack.tistory.com/66?category=897888
-
-작성중
+포스팅 지연
